@@ -1,0 +1,5 @@
+org/locadora/sistema/SistemaLocadora.class
+org/locadora/RegrasSistenaLocadora.class
+org/locadora/veiculo/VeiculoModel.class
+org/locadora/LocadoraApplication.class
+org/locadora/services/GerarPlaca.class
