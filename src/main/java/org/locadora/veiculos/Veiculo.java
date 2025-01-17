@@ -29,6 +29,10 @@ public class Veiculo {
         alugado = true;
     }
     
+    public boolean isAlugado() {
+        return alugado;
+    }
+    
     public String getPlaca() {
         return placa;
     }
