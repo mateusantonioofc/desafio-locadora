@@ -12,10 +12,16 @@ public class SistemaLocadora {
         veiculos.add(new Veiculo(marca, modelo, ano, quilometragem, valorDiaria));
     }
     
-    public void listarVeiculosDisponiveis() {
+    public void listarTodosOsVeiculos() {
         for (Veiculo veiculo : veiculos) {
             System.out.println(veiculo);
         }
+    }
+    
+    public List<Veiculo> listarVeiculosDisponiveis() {
+        return veiculos.stream()
+                .filter(v -> !v.isAlugado())
+                .toList();
     }
     
     public List<Veiculo> procurarVeiculoPelaMarca(String marca) {
