@@ -12,10 +12,9 @@ public class SistemaLocadora {
         veiculos.add(new Veiculo(marca, modelo, ano, quilometragem, valorDiaria));
     }
     
-    public void listarTodosOsVeiculos() {
-        for (Veiculo veiculo : veiculos) {
-            System.out.println(veiculo);
-        }
+    public List<Veiculo> listarTodosOsVeiculos() {
+        return veiculos.stream()
+                .toList();
     }
     
     public List<Veiculo> listarVeiculosDisponiveis() {
