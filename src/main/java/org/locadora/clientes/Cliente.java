@@ -1,5 +1,7 @@
 package org.locadora.clientes;
 
+import org.locadora.services.GerarID;
+
 public class Cliente {
     private String nome;
     private int ID;
@@ -9,7 +11,7 @@ public class Cliente {
     // Construtor
     public Cliente(String nome, int ID){
         this.nome = nome;
-        this.ID = ID;
+        this.ID = GerarID.gerarID();
     }
 
     // Construtor vazio
