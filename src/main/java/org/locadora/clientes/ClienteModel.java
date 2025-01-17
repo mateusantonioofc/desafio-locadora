@@ -2,20 +2,20 @@ package org.locadora.clientes;
 
 import org.locadora.services.GerarID;
 
-public class Cliente {
+public class ClienteModel {
     private String nome;
     private int ID;
     // função para historico de alugueis
     // função para historico de multas
 
     // Construtor
-    public Cliente(String nome, int ID){
+    public ClienteModel(String nome, int ID){
         this.nome = nome;
         this.ID = GerarID.gerarID();
     }
 
     // Construtor vazio
-    public Cliente() { }
+    public ClienteModel() { }
 
     // Get: Retornar valor de um atributo
     public String getNome() {
