@@ -1,4 +1,6 @@
 org/locadora/sistema/SistemaLocadora.class
+org/locadora/clientes/ClienteModel.class
+org/locadora/services/GerarID.class
 org/locadora/RegrasSistenaLocadora.class
 org/locadora/veiculos/VeiculoModel.class
 org/locadora/LocadoraApplication.class
