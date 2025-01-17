@@ -1,6 +1,6 @@
 package org.locadora.clientes;
 
-import org.locadora.services.GerarID;
+import org.locadora.services.UnusedGerarID;
 
 public class ClienteModel {
     private String nome;
@@ -11,7 +11,7 @@ public class ClienteModel {
     // Construtor
     public ClienteModel(String nome, int ID){
         this.nome = nome;
-        this.ID = GerarID.gerarID();
+        this.ID = ID;
     }
 
     // Construtor vazio

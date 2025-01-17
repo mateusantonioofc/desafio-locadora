@@ -2,7 +2,8 @@ package org.locadora.services;
 
 import java.util.Random;
 
-public class GerarID {
+@Deprecated
+public class UnusedGerarID {
     
     private static final Random random = new Random();
     
