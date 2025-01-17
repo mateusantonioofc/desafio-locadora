@@ -1,6 +1,5 @@
 package org.locadora.veiculos;
 
-import java.util.Objects;
 import org.locadora.services.GerarPlaca;
 
 public class VeiculoModel {
