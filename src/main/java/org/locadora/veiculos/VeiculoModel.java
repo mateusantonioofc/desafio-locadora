@@ -1,13 +1,14 @@
 package org.locadora.veiculos;
 
 import java.util.Objects;
+import org.locadora.services.GerarPlaca;
 
 public class VeiculoModel {
     
     private String marca;
     private String modelo;
     private String ano;
-    // adicionar placa
+    private String placa;
     private double quilometragem;
     private double valorDiaria;
     private boolean alugado;
@@ -19,6 +20,7 @@ public class VeiculoModel {
         this.quilometragem = quilometragem;
         this.valorDiaria = valorDiaria;
         this.alugado = false;
+        this.placa = GerarPlaca.gerarPlaca();
     }
 
     public VeiculoModel() {
@@ -28,6 +30,9 @@ public class VeiculoModel {
         alugado = true;
     }
     
+    public String getPlaca() {
+        return placa;
+    }
     public String getMarca() {
         return marca;
     }
