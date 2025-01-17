@@ -2,4 +2,4 @@
 /home/mateu/dev/locadora/src/main/java/org/locadora/RegrasSistenaLocadora.java
 /home/mateu/dev/locadora/src/main/java/org/locadora/services/GerarPlaca.java
 /home/mateu/dev/locadora/src/main/java/org/locadora/sistema/SistemaLocadora.java
-/home/mateu/dev/locadora/src/main/java/org/locadora/veiculo/VeiculoModel.java
+/home/mateu/dev/locadora/src/main/java/org/locadora/veiculos/VeiculoModel.java

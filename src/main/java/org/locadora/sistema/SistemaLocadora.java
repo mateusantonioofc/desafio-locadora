@@ -2,7 +2,7 @@ package org.locadora.sistema;
 
 import java.util.ArrayList;
 import java.util.List;
-import org.locadora.veiculo.VeiculoModel;
+import org.locadora.veiculos.VeiculoModel;
 
 public class SistemaLocadora {
     
