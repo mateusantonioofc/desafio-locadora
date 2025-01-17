@@ -1,5 +1,4 @@
 org/locadora/sistema/SistemaLocadora.class
-org/locadora/clientes/ClienteModel.class
 org/locadora/services/UnusedGerarID.class
 org/locadora/veiculos/Veiculo.class
 org/locadora/RegrasSistenaLocadora.class
