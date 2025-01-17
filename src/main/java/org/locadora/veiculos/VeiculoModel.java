@@ -75,35 +75,7 @@ public class VeiculoModel {
 
     @Override
     public String toString() {
-        return "VeiculoModel{" + "marca=" + marca + ", modelo=" + modelo + ", ano=" + ano + ", quilometragem=" + quilometragem + ", valorDiaria=" + valorDiaria + '}';
+        return "VeiculoModel{" + "marca=" + marca + ", modelo=" + modelo + ", ano=" + ano + ", placa=" + placa + ", quilometragem=" + quilometragem + ", valorDiaria=" + valorDiaria + ", alugado=" + alugado + '}';
     }
-
-    @Override
-    public boolean equals(Object obj) {
-        if (this == obj) {
-            return true;
-        }
-        if (obj == null) {
-            return false;
-        }
-        if (getClass() != obj.getClass()) {
-            return false;
-        }
-        final VeiculoModel other = (VeiculoModel) obj;
-        if (this.quilometragem != other.quilometragem) {
-            return false;
-        }
-        if (Double.doubleToLongBits(this.valorDiaria) != Double.doubleToLongBits(other.valorDiaria)) {
-            return false;
-        }
-        if (!Objects.equals(this.marca, other.marca)) {
-            return false;
-        }
-        if (!Objects.equals(this.modelo, other.modelo)) {
-            return false;
-        }
-        return Objects.equals(this.ano, other.ano);
-    }
-    
     
 }
