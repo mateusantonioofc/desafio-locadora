@@ -2,7 +2,7 @@ package org.locadora.veiculos;
 
 import org.locadora.services.GerarPlaca;
 
-public class VeiculoModel {
+public class Veiculo {
     
     private String marca;
     private String modelo;
@@ -12,7 +12,7 @@ public class VeiculoModel {
     private double valorDiaria;
     private boolean alugado;
 
-    public VeiculoModel(String marca, String modelo, String ano, double quilometragem, double valorDiaria) {
+    public Veiculo(String marca, String modelo, String ano, double quilometragem, double valorDiaria) {
         this.marca = marca;
         this.modelo = modelo;
         this.ano = ano;
@@ -22,7 +22,7 @@ public class VeiculoModel {
         this.placa = GerarPlaca.gerarPlaca();
     }
 
-    public VeiculoModel() {
+    public Veiculo() {
     }
     
     public void alugar() {
@@ -32,6 +32,7 @@ public class VeiculoModel {
     public String getPlaca() {
         return placa;
     }
+    
     public String getMarca() {
         return marca;
     }
@@ -74,7 +75,7 @@ public class VeiculoModel {
 
     @Override
     public String toString() {
-        return "VeiculoModel{" + "marca=" + marca + ", modelo=" + modelo + ", ano=" + ano + ", placa=" + placa + ", quilometragem=" + quilometragem + ", valorDiaria=" + valorDiaria + ", alugado=" + alugado + '}';
+        return "Veiculo{" + "marca=" + marca + ", modelo=" + modelo + ", ano=" + ano + ", placa=" + placa + ", quilometragem=" + quilometragem + ", valorDiaria=" + valorDiaria + ", alugado=" + alugado + '}';
     }
     
 }
