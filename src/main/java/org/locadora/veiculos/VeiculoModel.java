@@ -77,9 +77,5 @@ public class VeiculoModel {
     public String toString() {
         return "VeiculoModel{" + "marca=" + marca + ", modelo=" + modelo + ", ano=" + ano + ", placa=" + placa + ", quilometragem=" + quilometragem + ", valorDiaria=" + valorDiaria + ", alugado=" + alugado + '}';
     }
-<<<<<<< HEAD:src/main/java/org/locadora/veiculos/VeiculoModel.java
     
-=======
- 
->>>>>>> db222ebdb6dc87c80d8a078bce33a01a5c844938:src/main/java/org/locadora/veiculo/VeiculoModel.java
 }
