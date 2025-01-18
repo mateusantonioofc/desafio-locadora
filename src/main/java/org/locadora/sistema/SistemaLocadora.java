@@ -4,12 +4,14 @@ import java.util.ArrayList;
 import java.util.List;
 
 import org.locadora.clientes.Cliente;
+import org.locadora.services.GerarPlaca;
 import org.locadora.veiculos.Veiculo;
 
 public class SistemaLocadora {
     
     List<Veiculo> veiculos = new ArrayList<>();
     List<Cliente> clientes = new ArrayList<>();
+    
     
     public void cadastrarVeiculo(String marca, String modelo, String ano, double quilometragem, double valorDiaria) {
         veiculos.add(new Veiculo(marca, modelo, ano, quilometragem, valorDiaria));
