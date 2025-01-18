@@ -1,0 +1,7 @@
+/home/mateu/dev/locadora/src/main/java/org/locadora/LocadoraApplication.java
+/home/mateu/dev/locadora/src/main/java/org/locadora/RegrasSistenaLocadora.java
+/home/mateu/dev/locadora/src/main/java/org/locadora/clientes/Cliente.java
+/home/mateu/dev/locadora/src/main/java/org/locadora/services/GerarPlaca.java
+/home/mateu/dev/locadora/src/main/java/org/locadora/services/UnusedGerarID.java
+/home/mateu/dev/locadora/src/main/java/org/locadora/sistema/SistemaLocadora.java
+/home/mateu/dev/locadora/src/main/java/org/locadora/veiculos/Veiculo.java

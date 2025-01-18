@@ -1,0 +1,6 @@
+org/locadora/sistema/SistemaLocadora.class
+org/locadora/services/UnusedGerarID.class
+org/locadora/veiculos/Veiculo.class
+org/locadora/RegrasSistenaLocadora.class
+org/locadora/LocadoraApplication.class
+org/locadora/services/GerarPlaca.class
