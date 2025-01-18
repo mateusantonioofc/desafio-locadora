@@ -79,11 +79,18 @@ public class Veiculo {
 
     public void setValorDiaria(double valorDiaria) {
         this.valorDiaria = valorDiaria;
-    }    
+    }
 
     @Override
     public String toString() {
-        return "Veiculo{" + "marca=" + marca + ", modelo=" + modelo + ", ano=" + ano + ", placa=" + placa + ", quilometragem=" + quilometragem + ", valorDiaria=" + valorDiaria + ", alugado=" + alugado + '}';
+        return "Veiculo{" +
+                "marca='" + marca + '\'' +
+                ", modelo='" + modelo + '\'' +
+                ", ano='" + ano + '\'' +
+                ", placa='" + placa + '\'' +
+                ", quilometragem=" + quilometragem +
+                ", valorDiaria=" + valorDiaria +
+                ", alugado=" + alugado +
+                '}';
     }
-    
 }
